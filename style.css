@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #C9DABF;
+  color: #232726;
+  display: flex;
+  justify-content: center;
+}
+.container{
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.encabezado{
+    padding: 20px 0 7px 0;
+}
+.agregar{
+    background-color: #B5CFB7;
+    border-radius: 15px;
+    align-items: center;
+    height: 70px;
+    display: flex;
+    padding: 10px;
+    gap: 70px;
+}
+.agregar input{
+    width: 70%;
+    height: 70%;
+    border: none;
+    border-radius: 8px;
+    background-color: aliceblue;
+    padding-left: 10px;
+}
+.agregar input::placeholder{
+    font-size: 0.9rem;
+    color: #2d3332;
+}
+.agregar i{
+    font-size: 25px;
+    color: #808D7C;
+}
+.agregar I:hover{
+    transform: scale(1.1); /*el icono se hace mas grande al poner el cursor*/
+    cursor: pointer;
+}
+/* seccion de tareas */
+.tareas h2{
+    margin-bottom: 20px;
+    /* color: ; */
+}
+.tareas li{
+    background-color: #B5CFB7;
+    border-radius: 15px;
+    padding: 10px;
+    color: #2d3332;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas{
+    font-size: 20px;
+}
+.tareas p{
+    font-weight: 250;
+}
+.tareas i:hover{
+    color: #646d61;
+    cursor: pointer;
+}
+.tachado{
+    text-decoration: line-through;
+    color: #646d61;
+}
